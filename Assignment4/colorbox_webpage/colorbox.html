@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+        <!--<link rel="stylesheet" href="stylesheets/style.css" type="text/css">-->
+        <link rel="stylesheet" href="colorbox.css" type="text/css">
+        <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+        <script src="jquery.colorbox-min.js"></script>
+        <script>
+            jQuery(document).ready(function () {
+                jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1' });
+            });
+        </script>
+    </head>
+    <body>
+        <header>
+            <h3>Slideshow</h3>
+            <p>To begin the slideshow , please click on one of the photo links below and right arrow key to continue. There are "next" , "previous" buttons towards the bottom of the page also. Click "close" button to go back to the main page</p>
+        </header>
+        <main>
+        <a class='gallery' href='Screenshot_newest.png'>Newest_tab</a>
+        <a class='gallery' href='Screenshot_oldest.png'>Oldest_tab</a>
+        <a class='gallery' href='Screenshot_Add.png'>Add_tab</a>
+        <a class='gallery' href='Screenshot_new_Newest.png'>Newest_tab_after_adding</a>
+    </main>
+       <!--<script>
+            jQuery('a.gallery').colorbox();
+        </script> -->
+
+        <footer></footer>
+    </body>
+</html>

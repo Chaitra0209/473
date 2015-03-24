@@ -1,0 +1,16 @@
+{
+  "name": "Assignment6",
+  "version": "1.0.0",
+  "description": "HW6",
+  "main": "HW6.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "dependencies" :{
+  	"express":"4.12.3",
+  	"connect":"1.9.2"
+  },
+  "author": "Chaitra",
+  "license": "ISC"
+}

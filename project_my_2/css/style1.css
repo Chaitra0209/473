@@ -1,0 +1,39 @@
+.three, .one, .two, .four{
+    height:200px;
+    width:200px;    
+    border-style: solid;
+    border-width: 1px;
+}
+
+.three{
+ 
+    position: relative;
+    left: 200px;
+    border-color:red;
+
+}
+
+.one {
+  border-color:green;
+}
+
+.two {
+  border-color:blue;
+}
+
+.four {
+  border-color:black;
+}
+h1{
+  text-align: center;
+}
+
+
+
+
+/*the following code for no borders for bottom table results*/
+/*http://stackoverflow.com/questions/8875367/remove-row-lines-in-twitter-bootstrap*/
+
+table.table, .table td { 
+     border-top: none !important; 
+ }
